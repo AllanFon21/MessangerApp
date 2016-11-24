@@ -14,7 +14,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:id="@+id/opcionesMenu"
-        android:visibility="gone">
+        android:visibility="gone"
+        android:layout_alignParentLeft="true">
 
         <Button
             android:text="Perfil"
@@ -54,7 +55,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:id="@+id/entradaChat"
-        android:visibility="gone">
+        android:visibility="gone"
+        android:layout_alignParentLeft="true">
 
         <ImageButton
             android:layout_width="44dp"
@@ -124,7 +126,6 @@
         android:onClick="Iniciar"/>
 
 
-
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -132,7 +133,18 @@
         android:layout_marginBottom="50dp"
         android:layout_alignParentStart="true"
         android:id="@+id/lista"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:layout_alignParentLeft="true" />
+
+    <!-- <com.facebook.login.widget.LoginButton
+        xmlns:fb="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:text="connect_with_facebook"
+        android:visibility="visible" /> -->
 
 
 </RelativeLayout>
