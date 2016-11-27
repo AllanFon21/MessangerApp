@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
     android:gravity="center_horizontal"
     android:orientation="vertical" >
 
     <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="60dp"
-        android:src="@drawable/common_google_signin_btn_icon_dark_focused" />
+        android:src ="@drawable/location"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/lbl_you_are_at"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/black"
         android:textSize="25dp"
         android:textStyle="bold" />
 
@@ -28,35 +28,15 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="15dp"
-        android:textColor="@color/colorAccent"
-        android:textSize="16dp" />
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textColorLink="?attr/actionMenuTextColor" />
 
     <Button
-        android:id="@+id/btnShowLocation"
-        android:layout_width="wrap_content"
+        android:text="Enviar Ubicacion"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:background="@color/colorPrimary"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:text="@string/btn_get_location"
-        android:textColor="@color/colorAccent" />
-
-    <Button
-        android:id="@+id/btnLocationUpdates"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:background="@color/colorPrimary"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:text="@string/btn_start_location_updates"
-        android:textColor="@color/colorAccent" />
-
-    <Button
-        android:text="ir Chats"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:id="@+id/nextChats"
         android:onClick="NextChats"/>
 
