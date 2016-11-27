@@ -27,18 +27,9 @@
             android:background="@color/colorPrimary"
             android:onClick="irPerfil" />
 
-        <Button
-            android:text="Chats"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/buttonChats"
-            android:layout_weight="1"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:background="@color/colorPrimary"
-            android:onClick="irChats" />
 
         <Button
-            android:text="Disponibles"
+            android:text="Chats"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/buttonDisponibles"
