@@ -63,7 +63,7 @@
             app:srcCompat="@android:drawable/ic_dialog_email"
             android:id="@+id/imageButtonEnviar"
             android:layout_weight="0.00"
-            android:onClick="Enviar"/>
+            android:onClick="enviar"/>
     </LinearLayout>
 
 
